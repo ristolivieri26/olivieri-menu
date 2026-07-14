@@ -1,0 +1,28 @@
+{
+  "dishes": [
+    {
+      "name": "Tiramisù della Casa",
+      "nameEn": "Home made Tiramisù",
+      "price": "€ 6,00",
+      "allergens": [4, 5, 10],
+      "frozen": false,
+      "description": ""
+    },
+    {
+      "name": "Semifreddo della Casa",
+      "nameEn": "Home-made ice cream",
+      "price": "€ 6,00",
+      "allergens": [1, 4, 5],
+      "frozen": false,
+      "description": ""
+    },
+    {
+      "name": "Torta del Giorno della Casa",
+      "nameEn": "Cake of the day",
+      "price": "€ 6,00",
+      "allergens": [],
+      "frozen": false,
+      "description": "Chiedere al cameriere per la disponibilità e gli allergeni del giorno."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "dishes": [
+    {
+      "name": "Pomodori, Basilico e Cipolla",
+      "nameEn": "Tomato and onion salad",
+      "price": "€ 6,00",
+      "allergens": [],
+      "frozen": false
+    },
+    {
+      "name": "Insalata Mista di Stagione",
+      "nameEn": "Mixed salad",
+      "price": "€ 6,00",
+      "allergens": [],
+      "frozen": false
+    },
+    {
+      "name": "Patate Fritte",
+      "nameEn": "French fried potatoes",
+      "price": "€ 6,00",
+      "allergens": [10],
+      "frozen": true
+    },
+    {
+      "name": "Verdure Grigliate",
+      "nameEn": "Grilled vegetables",
+      "price": "€ 6,00",
+      "allergens": [],
+      "frozen": false
+    }
+  ]
+}

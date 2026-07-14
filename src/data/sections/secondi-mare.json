@@ -1,0 +1,32 @@
+{
+  "dishes": [
+    {
+      "name": "Frittura Mista di Pesce alla Olivieri",
+      "nameEn": "Mixed fried fish — squid, shrimp and vegetables",
+      "price": "€ 16,00",
+      "allergens": [6, 7, 8, 10],
+      "frozen": true
+    },
+    {
+      "name": "Branzino all'Isolana",
+      "nameEn": "Fresh sea bass in the oven with vegetables",
+      "price": "€ 22,00",
+      "allergens": [6, 8],
+      "frozen": true
+    },
+    {
+      "name": "Tagliata di Tonno al Sesamo",
+      "nameEn": "Tuna steak with sesame",
+      "price": "€ 20,00",
+      "allergens": [6, 11],
+      "frozen": true
+    },
+    {
+      "name": "Pescato del Giorno alla Griglia",
+      "nameEn": "Grilled catch of the day",
+      "price": "€ 20,00",
+      "allergens": [6, 10],
+      "frozen": true
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "dishes": [
+    {
+      "name": "Spaghetto allo Scoglio",
+      "nameEn": "Spaghetti with seafood",
+      "price": "€ 16,00",
+      "allergens": [7, 8, 10, 14],
+      "frozen": true
+    },
+    {
+      "name": "Spaghetti alle Vongole",
+      "nameEn": "Spaghetti with clams",
+      "price": "€ 18,00",
+      "allergens": [7, 10],
+      "frozen": true
+    },
+    {
+      "name": "Risotto del Pescatore",
+      "nameEn": "Fisherman's Risotto (antica ricetta)",
+      "price": "€ 16,00",
+      "allergens": [7, 8, 12, 14],
+      "frozen": true
+    },
+    {
+      "name": "Gnocchetti agli Scampi",
+      "nameEn": "Gnocchi with scampi sauce",
+      "price": "€ 16,00",
+      "allergens": [4, 8, 10, 14],
+      "frozen": true
+    },
+    {
+      "name": "Tagliatelle alla Carbonara di Mare",
+      "nameEn": "Tagliatelle with seafood and saffron sauce",
+      "price": "€ 16,00",
+      "allergens": [4, 6, 7, 8, 10, 14],
+      "frozen": true
+    },
+    {
+      "name": "Mezzo Pacchero alla Trabaccolara",
+      "nameEn": "Pacchero with squid, prawns, red mullet and mussels",
+      "price": "€ 16,00",
+      "allergens": [4, 6, 7, 8, 10, 12, 14],
+      "frozen": true
+    }
+  ]
+}

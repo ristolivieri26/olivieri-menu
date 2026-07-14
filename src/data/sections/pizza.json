@@ -1,0 +1,24 @@
+{
+  "dishes": [
+    { "name": "Pizza Margherita", "nameEn": "Tomato & mozzarella", "price": "€ 10,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza Marinara", "nameEn": "Tomato, aglio, peperoncino", "price": "€ 8,00", "allergens": [10], "frozen": false },
+    { "name": "Pizza Napoli", "nameEn": "Tomato, mozzarella, capers, anchovies", "price": "€ 11,00", "allergens": [4, 6, 10], "frozen": false },
+    { "name": "Pizza al Prosciutto Cotto", "nameEn": "Cooked ham pizza", "price": "€ 11,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza al Prosciutto Crudo", "nameEn": "Raw ham pizza", "price": "€ 12,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza ai Würstel", "nameEn": "Sausage pizza", "price": "€ 11,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza Primavera", "nameEn": "Fresh tomatoes and rocket salad", "price": "€ 11,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza al Salamino Piccante", "nameEn": "Spicy salami pizza", "price": "€ 11,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza ai 4 Formaggi", "nameEn": "Four cheeses pizza", "price": "€ 12,00", "allergens": [1, 4, 5, 6, 10, 12], "frozen": false },
+    { "name": "Pizza 4 Stagioni", "nameEn": "Olive, prosciutto, artichokes, mushrooms", "price": "€ 13,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza Tonno e Cipolla", "nameEn": "Tuna and onion pizza", "price": "€ 13,00", "allergens": [4, 6, 10], "frozen": false },
+    { "name": "Pizza Speck e Mascarpone", "nameEn": "Speck and mascarpone pizza", "price": "€ 15,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Calzone", "nameEn": "Mozzarella, tomato, cooked ham", "price": "€ 15,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza Vegetariana", "nameEn": "Aubergines, courgettes and peppers", "price": "€ 13,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza Trevisano, Crudo e Gorgonzola", "nameEn": "Trevisano, raw ham and gorgonzola", "price": "€ 15,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pane Arabo", "nameEn": "Flat bread with mozzarella, ham, salad and fresh tomato", "price": "€ 15,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza ai Frutti di Mare", "nameEn": "Seafood pizza", "price": "€ 16,00", "allergens": [4, 7, 8, 10], "frozen": true },
+    { "name": "Focaccia Cotto Mozzarella", "nameEn": "Focaccia with cooked ham and mozzarella", "price": "€ 12,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza Salsiccia e Stracchino", "nameEn": "Sausage and stracchino cheese", "price": "€ 13,00", "allergens": [4, 10], "frozen": false },
+    { "name": "Pizza Lù", "nameEn": "White pizza with gorgonzola, onion and spicy salami", "price": "€ 13,00", "allergens": [4, 10], "frozen": false }
+  ]
+}

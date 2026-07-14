@@ -1,0 +1,365 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/photos
+public_folder: /photos
+
+locale: it
+
+collections:
+  - name: "menu"
+    label: "Menù"
+    files:
+
+      - name: "antipasti-terra"
+        label: "Antipasti di Terra"
+        file: "src/data/sections/antipasti-terra.json"
+        fields:
+          - name: dishes
+            label: Piatti
+            label_singular: Piatto
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string, hint: "es. € 8,00" }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - { label: Descrizione, name: description, widget: string, required: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "2 — Arachide", value: 2 }
+                  - { label: "3 — Lupino", value: 3 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "6 — Pesce", value: 6 }
+                  - { label: "7 — Molluschi", value: 7 }
+                  - { label: "8 — Crostacei", value: 8 }
+                  - { label: "9 — Soia", value: 9 }
+                  - { label: "10 — Glutine", value: 10 }
+                  - { label: "11 — Sesamo", value: 11 }
+                  - { label: "12 — Sedano", value: 12 }
+                  - { label: "13 — Senape", value: 13 }
+                  - { label: "14 — Anidride solforosa", value: 14 }
+
+      - name: "antipasti-mare"
+        label: "Antipasti di Mare"
+        file: "src/data/sections/antipasti-mare.json"
+        fields:
+          - name: dishes
+            label: Piatti
+            label_singular: Piatto
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string, hint: "es. € 16,00" }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - { label: Descrizione, name: description, widget: string, required: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "2 — Arachide", value: 2 }
+                  - { label: "3 — Lupino", value: 3 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "6 — Pesce", value: 6 }
+                  - { label: "7 — Molluschi", value: 7 }
+                  - { label: "8 — Crostacei", value: 8 }
+                  - { label: "9 — Soia", value: 9 }
+                  - { label: "10 — Glutine", value: 10 }
+                  - { label: "11 — Sesamo", value: 11 }
+                  - { label: "12 — Sedano", value: 12 }
+                  - { label: "13 — Senape", value: 13 }
+                  - { label: "14 — Anidride solforosa", value: 14 }
+
+      - name: "primi-terra"
+        label: "Primi di Terra"
+        file: "src/data/sections/primi-terra.json"
+        fields:
+          - name: dishes
+            label: Piatti
+            label_singular: Piatto
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - { label: Descrizione, name: description, widget: string, required: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "2 — Arachide", value: 2 }
+                  - { label: "3 — Lupino", value: 3 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "6 — Pesce", value: 6 }
+                  - { label: "7 — Molluschi", value: 7 }
+                  - { label: "8 — Crostacei", value: 8 }
+                  - { label: "9 — Soia", value: 9 }
+                  - { label: "10 — Glutine", value: 10 }
+                  - { label: "11 — Sesamo", value: 11 }
+                  - { label: "12 — Sedano", value: 12 }
+                  - { label: "13 — Senape", value: 13 }
+                  - { label: "14 — Anidride solforosa", value: 14 }
+
+      - name: "primi-mare"
+        label: "Primi di Mare"
+        file: "src/data/sections/primi-mare.json"
+        fields:
+          - name: dishes
+            label: Piatti
+            label_singular: Piatto
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - { label: Descrizione, name: description, widget: string, required: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "2 — Arachide", value: 2 }
+                  - { label: "3 — Lupino", value: 3 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "6 — Pesce", value: 6 }
+                  - { label: "7 — Molluschi", value: 7 }
+                  - { label: "8 — Crostacei", value: 8 }
+                  - { label: "9 — Soia", value: 9 }
+                  - { label: "10 — Glutine", value: 10 }
+                  - { label: "11 — Sesamo", value: 11 }
+                  - { label: "12 — Sedano", value: 12 }
+                  - { label: "13 — Senape", value: 13 }
+                  - { label: "14 — Anidride solforosa", value: 14 }
+
+      - name: "secondi-terra"
+        label: "Secondi di Terra"
+        file: "src/data/sections/secondi-terra.json"
+        fields:
+          - name: dishes
+            label: Piatti
+            label_singular: Piatto
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - { label: Descrizione, name: description, widget: string, required: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "2 — Arachide", value: 2 }
+                  - { label: "3 — Lupino", value: 3 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "6 — Pesce", value: 6 }
+                  - { label: "7 — Molluschi", value: 7 }
+                  - { label: "8 — Crostacei", value: 8 }
+                  - { label: "9 — Soia", value: 9 }
+                  - { label: "10 — Glutine", value: 10 }
+                  - { label: "11 — Sesamo", value: 11 }
+                  - { label: "12 — Sedano", value: 12 }
+                  - { label: "13 — Senape", value: 13 }
+                  - { label: "14 — Anidride solforosa", value: 14 }
+
+      - name: "secondi-mare"
+        label: "Secondi di Mare"
+        file: "src/data/sections/secondi-mare.json"
+        fields:
+          - name: dishes
+            label: Piatti
+            label_singular: Piatto
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - { label: Descrizione, name: description, widget: string, required: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "2 — Arachide", value: 2 }
+                  - { label: "3 — Lupino", value: 3 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "6 — Pesce", value: 6 }
+                  - { label: "7 — Molluschi", value: 7 }
+                  - { label: "8 — Crostacei", value: 8 }
+                  - { label: "9 — Soia", value: 9 }
+                  - { label: "10 — Glutine", value: 10 }
+                  - { label: "11 — Sesamo", value: 11 }
+                  - { label: "12 — Sedano", value: 12 }
+                  - { label: "13 — Senape", value: 13 }
+                  - { label: "14 — Anidride solforosa", value: 14 }
+
+      - name: "contorni"
+        label: "Contorni"
+        file: "src/data/sections/contorni.json"
+        fields:
+          - name: dishes
+            label: Contorni
+            label_singular: Contorno
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "10 — Glutine", value: 10 }
+                  - { label: "12 — Sedano", value: 12 }
+
+      - name: "pizza"
+        label: "Pizza"
+        file: "src/data/sections/pizza.json"
+        fields:
+          - name: dishes
+            label: Pizze
+            label_singular: Pizza
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Descrizione (ingredienti)", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "2 — Arachide", value: 2 }
+                  - { label: "3 — Lupino", value: 3 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "6 — Pesce", value: 6 }
+                  - { label: "7 — Molluschi", value: 7 }
+                  - { label: "8 — Crostacei", value: 8 }
+                  - { label: "9 — Soia", value: 9 }
+                  - { label: "10 — Glutine", value: 10 }
+                  - { label: "11 — Sesamo", value: 11 }
+                  - { label: "12 — Sedano", value: 12 }
+                  - { label: "13 — Senape", value: 13 }
+                  - { label: "14 — Anidride solforosa", value: 14 }
+
+      - name: "dolci"
+        label: "Dolci"
+        file: "src/data/sections/dolci.json"
+        fields:
+          - name: dishes
+            label: Dolci
+            label_singular: Dolce
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string }
+              - { label: "Note (descrizione per il cliente)", name: description, widget: string, required: false }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "2 — Arachide", value: 2 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "10 — Glutine", value: 10 }
+
+      - name: "bambini"
+        label: "Menu Bambini"
+        file: "src/data/sections/bambini.json"
+        fields:
+          - name: dishes
+            label: Piatti
+            label_singular: Piatto
+            widget: list
+            fields:
+              - { label: Nome, name: name, widget: string }
+              - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+              - { label: Prezzo, name: price, widget: string }
+              - { label: "Surgelato (*)", name: frozen, widget: boolean, default: false }
+              - name: allergens
+                label: Allergeni
+                widget: select
+                multiple: true
+                required: false
+                default: []
+                options:
+                  - { label: "1 — Frutta a guscio", value: 1 }
+                  - { label: "4 — Latte e derivati", value: 4 }
+                  - { label: "5 — Uova", value: 5 }
+                  - { label: "10 — Glutine", value: 10 }
+                  - { label: "12 — Sedano", value: 12 }
+
+  - name: "bevande"
+    label: "Bevande e Vini"
+    files:
+      - name: "drinks"
+        label: "Bevande e Vini"
+        file: "src/data/drinks.json"
+        fields:
+          - name: groups
+            label: Categorie
+            label_singular: Categoria
+            widget: list
+            fields:
+              - { label: "Titolo categoria", name: title, widget: string }
+              - name: items
+                label: Voci
+                label_singular: Voce
+                widget: list
+                fields:
+                  - { label: Nome, name: name, widget: string }
+                  - { label: "Traduzione inglese", name: nameEn, widget: string, required: false }
+                  - { label: Prezzo, name: price, widget: string, hint: "es. € 4,00 oppure € 5 · 7 · 12" }

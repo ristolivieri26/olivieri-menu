@@ -1,0 +1,32 @@
+{
+  "dishes": [
+    {
+      "name": "Bruschetta",
+      "nameEn": "Bruschetta",
+      "price": "€ 8,00",
+      "allergens": [10],
+      "frozen": false
+    },
+    {
+      "name": "Bresaola, Rucula e Grana",
+      "nameEn": "Bresaola, arugula and grana cheese",
+      "price": "€ 15,00",
+      "allergens": [4],
+      "frozen": false
+    },
+    {
+      "name": "Burratina e Prosciutto Crudo",
+      "nameEn": "Burrata and raw ham",
+      "price": "€ 13,00",
+      "allergens": [4, 10],
+      "frozen": false
+    },
+    {
+      "name": "Caprese",
+      "nameEn": "Tomato and mozzarella",
+      "price": "€ 10,00",
+      "allergens": [4],
+      "frozen": false
+    }
+  ]
+}

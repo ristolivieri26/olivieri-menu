@@ -1,0 +1,46 @@
+{
+  "dishes": [
+    {
+      "name": "Insalatina di Mare Caldo su Letto di Verdure",
+      "nameEn": "Warm seafood salad with vegetables",
+      "price": "€ 16,00",
+      "allergens": [7, 8],
+      "frozen": true
+    },
+    {
+      "name": "Impepata di Cozze",
+      "nameEn": "Peppered mussels",
+      "price": "€ 12,00",
+      "allergens": [7, 10],
+      "frozen": true
+    },
+    {
+      "name": "Acciughe Fritte con Maionese al Timo",
+      "nameEn": "Fried anchovies with thyme mayonnaise",
+      "price": "€ 12,00",
+      "allergens": [4, 5, 6, 10],
+      "frozen": true
+    },
+    {
+      "name": "Crocchette di Gamberi",
+      "nameEn": "Shrimp croquettes",
+      "price": "€ 12,00",
+      "allergens": [4, 5, 8, 10],
+      "frozen": true
+    },
+    {
+      "name": "Polpo Grigliato su Purea di Patate",
+      "nameEn": "Grilled octopus on mashed potatoes",
+      "price": "€ 16,00",
+      "allergens": [4, 6, 7],
+      "frozen": true
+    },
+    {
+      "name": "Carpaccio di Salmone Affumicato su Quenelle di Philadelphia alle Erbe",
+      "nameEn": "Smoked salmon carpaccio on herbed cream cheese",
+      "price": "€ 15,00",
+      "allergens": [4, 6],
+      "frozen": false
+    }
+  ]
+}

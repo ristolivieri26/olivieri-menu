@@ -1,0 +1,25 @@
+{
+  "dishes": [
+    {
+      "name": "Penne alla Pomarola",
+      "nameEn": "Pasta quills with fresh tomato",
+      "price": "€ 6,00",
+      "allergens": [10, 12],
+      "frozen": false
+    },
+    {
+      "name": "Cotoletta e Patate Fritte",
+      "nameEn": "Fried meat with fried potatoes",
+      "price": "€ 7,00",
+      "allergens": [5, 10],
+      "frozen": false
+    },
+    {
+      "name": "Pizza Baby Margherita",
+      "nameEn": "Little pizza Margherita",
+      "price": "€ 5,00",
+      "allergens": [4, 10],
+      "frozen": false
+    }
+  ]
+}

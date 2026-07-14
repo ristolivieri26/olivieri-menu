@@ -1,0 +1,25 @@
+{
+  "dishes": [
+    {
+      "name": "Cotoletta alla Milanese",
+      "nameEn": "Breaded escalope Milanese style",
+      "price": "€ 12,00",
+      "allergens": [5, 10],
+      "frozen": false
+    },
+    {
+      "name": "Bistecca di Manzo",
+      "nameEn": "Grilled beef steak",
+      "price": "€ 20,00",
+      "allergens": [],
+      "frozen": false
+    },
+    {
+      "name": "Hamburger e Patatine",
+      "nameEn": "Hamburger with cheddar, tomato, salad and fries",
+      "price": "€ 16,00",
+      "allergens": [4, 10, 11],
+      "frozen": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "dishes": [
+    {
+      "name": "Pennette al Pomodoro e Basilico",
+      "nameEn": "Pasta with tomato and basil",
+      "price": "€ 9,00",
+      "allergens": [10, 12],
+      "frozen": false
+    },
+    {
+      "name": "Tortelli al Ragù",
+      "nameEn": "Tortelli with Bolognese sauce",
+      "price": "€ 13,00",
+      "allergens": [1, 4, 10, 12],
+      "frozen": false
+    },
+    {
+      "name": "Lasagne alla Bolognese",
+      "nameEn": "Lasagna",
+      "price": "€ 13,00",
+      "allergens": [1, 4, 5, 10, 12],
+      "frozen": false
+    },
+    {
+      "name": "Ravioli di Burrata, Pomodoro Fresco e Basilico",
+      "nameEn": "Burrata, tomato and basil ravioli",
+      "price": "€ 15,00",
+      "allergens": [4, 5, 10, 12],
+      "frozen": true
+    }
+  ]
+}

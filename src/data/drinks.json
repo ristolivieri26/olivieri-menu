@@ -1,0 +1,51 @@
+{
+  "groups": [
+    {
+      "title": "Analcolici",
+      "items": [
+        { "name": "Acqua Minerale", "nameEn": "Mineral water", "price": "€ 2,50" },
+        { "name": "Bibite", "nameEn": "Soft drinks", "price": "€ 4,00" }
+      ]
+    },
+    {
+      "title": "Birre",
+      "items": [
+        { "name": "Birra alla Spina piccola / media", "nameEn": "Draft beer small / medium", "price": "€ 3,50 / 6,00" },
+        { "name": "Birra in Bottiglia", "nameEn": "Bottled beer", "price": "€ 5,00" }
+      ]
+    },
+    {
+      "title": "Vino della Casa",
+      "items": [
+        { "name": "Vino Bianco  ¼ lt · ½ lt · 1 lt", "nameEn": "House white wine", "price": "€ 5 · 7 · 12" },
+        { "name": "Vino Rosso  ¼ lt · ½ lt · 1 lt", "nameEn": "House red wine", "price": "€ 5 · 7 · 12" },
+        { "name": "Vini al Calice", "nameEn": "Wine by the glass", "price": "€ 6,00" }
+      ]
+    },
+    {
+      "title": "Vini in Bottiglia",
+      "items": [
+        { "name": "Pinot Grigio", "nameEn": "", "price": "€ 20,00" },
+        { "name": "Sauvignon", "nameEn": "", "price": "€ 20,00" },
+        { "name": "Falanghina", "nameEn": "", "price": "€ 22,00" },
+        { "name": "Traminer Aromatico", "nameEn": "", "price": "€ 23,00" },
+        { "name": "Vernaccia di San Gimignano", "nameEn": "", "price": "€ 20,00" },
+        { "name": "Vermentino di Luni", "nameEn": "", "price": "€ 22,00" },
+        { "name": "Prosecco Valdobbiadene", "nameEn": "", "price": "€ 25,00" },
+        { "name": "Chianti Classico", "nameEn": "", "price": "€ 23,00" },
+        { "name": "Bolgheri", "nameEn": "", "price": "€ 26,00" },
+        { "name": "Morellino di Scansano", "nameEn": "", "price": "€ 23,00" },
+        { "name": "Rosè", "nameEn": "", "price": "€ 21,00" }
+      ]
+    },
+    {
+      "title": "Caffetteria & Amari",
+      "items": [
+        { "name": "Caffè Espresso", "nameEn": "Espresso coffee", "price": "€ 2,00" },
+        { "name": "Caffè Corretto", "nameEn": "Espresso with spirits", "price": "€ 3,00" },
+        { "name": "Amari e Liquori Nazionali", "nameEn": "Italian digestives", "price": "€ 4,00" },
+        { "name": "Liquori Esteri", "nameEn": "International spirits", "price": "€ 6,00" }
+      ]
+    }
+  ]
+}
