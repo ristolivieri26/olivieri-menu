@@ -64,6 +64,16 @@
         6
       ],
       "frozen": false
+    },
+    {
+      "frozen": false,
+      "allergens": [
+        6,
+        10
+      ],
+      "name": "Gazpacho di verdure con Gamberi Fritti",
+      "nameEn": "Vegetable gazpacho with fried prawns",
+      "price": "16"
     }
   ]
 }
