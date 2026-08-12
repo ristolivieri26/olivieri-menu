@@ -74,6 +74,16 @@
       "name": "Gazpacho di verdure con Gamberi Fritti",
       "nameEn": "Vegetable gazpacho with fried prawns",
       "price": "16"
+    },
+    {
+      "frozen": false,
+      "allergens": [
+        6,
+        10
+      ],
+      "name": "Panzanella con filetto di branzino in crudità",
+      "nameEn": "Panzanella with raw sea bass fillet",
+      "price": "16"
     }
   ]
 }
